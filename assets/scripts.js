@@ -28,7 +28,7 @@ const loader = new GLTFLoader();
 
 //Load the file
 loader.load(
-  `models/starship.gltf`,
+  `https://LeoGreed2909.github.io//TwitchBar//assets//scripts.js`,
   function (gltf) {
     //If the file is loaded, add it to the scene
     object = gltf.scene;
@@ -49,7 +49,7 @@ const renderer = new THREE.WebGLRenderer({ alpha: true }); //Alpha: true allows 
 renderer.setSize(window.innerWidth, window.innerHeight);
 
 //Add the renderer to the DOM
-document.getElementById("container3D").appendChild(renderer.domElement);
+document.getElementById("glcanvas").appendChild(renderer.domElement);
 
 //Set how far the camera will be from the 3D model
 camera.position.z = objToRender === "dino" ? 25 : 500;
