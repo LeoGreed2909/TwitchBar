@@ -48,12 +48,3 @@ camera.position.z = objToRender === "dino" ? 25 : 500;
 
 const ambientLight = new THREE.AmbientLight(0x333333, objToRender === "dino" ? 5 : 1);
 scene.add(ambientLight);
-
-//Render the scene
-function animate() {
-  requestAnimationFrame(animate);
-  //Here we could add some code to update the scene, adding some automatic movement
-
-//Start the 3D rendering
-animate();
-}
