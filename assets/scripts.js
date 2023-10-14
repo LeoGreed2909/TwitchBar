@@ -45,10 +45,6 @@ document.getElementById("glcanvas").appendChild(renderer.domElement);
 camera.position.z = objToRender === "dino" ? 25 : 500;
 
 //Add lights to the scene, so we can actually see the 3D model
-const topLight = new THREE.DirectionalLight(0xffffff, 1); // (color, intensity)
-topLight.position.set(500, 500, 500) //top-left-ish
-topLight.castShadow = true;
-scene.add(topLight);
 
 const ambientLight = new THREE.AmbientLight(0x333333, objToRender === "dino" ? 5 : 1);
 scene.add(ambientLight);
