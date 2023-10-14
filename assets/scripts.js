@@ -56,3 +56,4 @@ function animate() {
 
 //Start the 3D rendering
 animate();
+}
