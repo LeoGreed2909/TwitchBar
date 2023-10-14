@@ -28,7 +28,7 @@ const loader = new GLTFLoader();
 
 //Load the file
 loader.load(
-  `https://LeoGreed2909.github.io//TwitchBar//assets//scripts.js`,
+  `https://LeoGreed2909.github.io//TwitchBar//assets//Bar_Back2.gltf`,
   function (gltf) {
     //If the file is loaded, add it to the scene
     object = gltf.scene;
