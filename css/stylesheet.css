@@ -1,0 +1,14 @@
+#bar canvas {
+	width: 100vw !important;
+	height: 100vh !important;
+	border: 2px solid black;
+	background-color: cyan;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+body{
+	margin: 0;
+	font-family: "Montserrat", sans-serif;
+}
