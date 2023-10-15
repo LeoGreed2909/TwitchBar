@@ -34,11 +34,5 @@ loader.load(
 		console.error( 'An error happened' );
 	}
 );
-
-
-// Alternatively, to parse a previously loaded JSON structure
-const object = loader.parse( a_json_object );
-
-scene.add( object );
 //Start the 3D rendering
 animate();
