@@ -32,7 +32,7 @@ loader.load(
 	// onError callback
 	function ( err ) {
 		console.error( 'An error happened' );
-	}
+	},
 
     animate();
 );
