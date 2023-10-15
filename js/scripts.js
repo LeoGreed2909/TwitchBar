@@ -34,5 +34,4 @@ loader.load(
 		console.error( 'An error happened' );
 	},
 
-    animate();
-);
+    animate());
