@@ -33,6 +33,6 @@ loader.load(
 	function ( err ) {
 		console.error( 'An error happened' );
 	}
+
+    animate();
 );
-//Start the 3D rendering
-animate();
