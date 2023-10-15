@@ -19,9 +19,9 @@ loader.load(
 
 	// onLoad callback
 	// Here the loaded data is assumed to be an object
-	function ( obj ) {
+	function ( gltf ) {
 		// Add the loaded object to the scene
-		scene.add( obj );
+		scene.add( model );
 	},
 
 	// onProgress callback
